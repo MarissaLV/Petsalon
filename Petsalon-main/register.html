@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="=IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+
+    <title> Document</title>
+    
+        <nav class="nav1">
+            <a href="">Teléfono de emergencia: (686)1257616</a> |
+            <a href="">Domicilio:Calle Tezozomoc #45, Col. Prohogar</a> |
+            <a href="">Horario: Lunes a Sabado 07:00 am to 20:00 Hrs</a> |
+        </nav>
+ 
+
+</head>
+
+<body>
+    <header>
+        <img src="img/chuyky.jpg" width="170px" height="250px">
+        <center>
+            <h1> SALÓN CHEWBACCA</h1>
+        </center>
+        <h1 class="titulo">
+    </header>
+
+    <div>
+        <div class="formulario">
+
+
+            <h2>Registra una nueva mascota</h2>
+
+
+            <input type="text" placeholder="Ingresa el nombre de la mascota" id="txtNombre">
+            <select id="txtGenero" name="Genero" class="form-control">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="text" placeholder="Ingresa la Raza de la mascota" id="txtRaza">
+            <input type="text" placeholder="Ingresa la Edad" id="txtEdad">
+            <input type="text" placeholder="Ingresa nombre del dueño" id="txtdueño">
+            </select>
+
+
+
+            <select id="selServicio" name="selServicio">
+                <option value="" disable selected>--Selecciona un servicio--</option>
+                <option value="Vacunas"> Vacunas</option>
+                <option value="Grooming">Grooming</option>
+                <option value="Corte">Corte</option>
+                <option value="Shower">Shower</option>
+                <option value="Desparacitación">Desparacitación</option>
+
+            </select>
+
+            <select id="txtmetododelpago" name="txtmetododelpago">
+                <option value="" disable selected>--Selecciona un metodo--</option>
+                <option value="Efectivo"> Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+            </select>
+
+            <button onclick="registro();">Registrar</button>
+        </div>
+
+
+        <h2>Mascotas registradas en el sistema</h2>
+        <div id="mascotas">
+            <!-- aqui se insertarán las mascotas-->
+        </div>
+
+    </div>
+
+    <footer>
+        <center>
+            <p>Mi salón</p>
+            <p>Mexicali B.C.</p>
+        </center>
+    </footer>
+
+    <script src="scripts/register.js"></script>
+    <script src="scripts/display.js"></script>
+</body>
+
+</html>

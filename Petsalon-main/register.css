@@ -1,0 +1,76 @@
+body {
+    font-family: arial;
+}
+
+.formulario {
+    background-color: rgb(70, 196, 238);
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario input,
+.formulario select {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+header {
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid white;
+    border-bottom-width: 2rem;
+}
+
+body {
+    background-image: url("/img/istockphoto-944089908-1024x1024.jpg");
+    background-size: cover;
+
+}
+
+.titulo {
+    color: rgb(55, 19, 151);
+}
+
+.card{
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding:10px;
+    border-radius:10px;
+}
+#mascotas{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap:10px;
+}
+
+button{
+    background-color: black;
+    font-size: 1.8rem;
+    color: white;
+    border-radius: 3px;
+    border:none;
+    padding: 1rem;
+    }
+
+    select{
+        display:block;
+        width: 80%;
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid #020200;
+        margin: 1rem;
+    }
+
+ 
